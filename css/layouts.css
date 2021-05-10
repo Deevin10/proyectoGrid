@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+/* Header y sub... */
+header{
+    
+    background-color: #7b7b7b;
+    
+    grid-column: 1/span-1;
+    grid-row: 1/1;
+}
+
+/* .seccion__logo{
+    
+    
+} */
+
+/* .logo .menu{
+    display: flex;
+    justify-content: center;
+} */
+.logo{
+    flex:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 176px;
+    
+    }
+
+.seccion__navegador{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.menu{
+    
+    font-family: 'Palanquin';
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px;
+}
+/* .seccion__navegador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+   
+
+
+
+/* Main y sub... */
+main{
+    background-color: black;
+    grid-column: 1/span-1;
+    grid-row: 2/span 9;
+}
+
+.seccion01, .seccion02, .seccion03, .seccion04{
+    background-color: #7b7b7b;
+}
+
+.seccion01{
+    
+    grid-column: 1/span 4;
+    grid-row: 1/ span 5;
+}
+
+.seccion02{
+    
+    grid-column: 8/span 5;
+    grid-row: 3/span 6;
+}
+
+.seccion03{
+    
+    grid-column: 1/span 13;
+    grid-row: 10/span 2;
+}
+
+.seccion04{
+    
+    grid-column: 1/span 6;
+    grid-row: 7/span 2;
+}
+
+
+/* BANNERS - IMG - TExto*/
+
+/* .seccion01{
+    
+} */
+
+.banner1{
+    /* display: flex;
+    align-items: center;
+    justify-content: start; */
+    width: 21.52rem;
+    height: 36.25rem;
+}
+
+.banner2{
+    width: 28.4625rem;
+    height: 43.75rem;
+}
+
+
+/* Footer y sub... */
+footer{
+    background-color: #495452;
+    grid-column: 1/span-1;
+    grid-row: 9/span 2;
+}
+
+
+.servicios__1,  .servicios__2, .servicios__3{
+
+    background-color: #7b7b7b;
+}
+
+.subtitulo{
+    font-family: 'Palanquin';
+    font-size: 30px;
+    text-align:center;
+}
+

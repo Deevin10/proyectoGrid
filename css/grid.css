@@ -1,0 +1,64 @@
+/* Variables */
+:root {
+    --gap: 20px;
+    --anchoColumnas: ;
+    --alturaFilas: ;
+}
+
+/*  Aqui meto el Grid BASE */
+
+#contenido {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 200px);
+    grid-gap: 20px;
+    width: 1366px;
+}
+
+/* Subgrid HEADER */
+header {
+    
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+}
+
+
+
+
+
+/* Subgrid MAIN */
+main{
+    
+    padding: 120px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(11, 100px);
+    grid-gap: 20px;
+    
+    
+    /* grid-column: 2/span 10;
+    grid-row: 3/span 11; */
+}
+
+
+/* .seccion01, .seccion02, .seccion03, .seccion04{
+    padding: 15px;
+} */
+
+
+
+/* Subgrid FOOTER */
+footer {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+}
+
+
+
+
